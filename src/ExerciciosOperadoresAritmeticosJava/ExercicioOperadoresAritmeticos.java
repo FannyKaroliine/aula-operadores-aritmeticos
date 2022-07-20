@@ -48,7 +48,7 @@ public class ExercicioOperadoresAritmeticos {
         System.out.println("a+b: "+x1);
         System.out.println("b-c: "+x2);
         System.out.println("c*d: "+x3);
-        System.out.println("d/e: "+x4);
+        System.out.println("e/d: "+x4);
         System.out.println("e%a: "+x5);
 
     }
