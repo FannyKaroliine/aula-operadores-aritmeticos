@@ -42,7 +42,7 @@ public class ExercicioOperadoresAritmeticos {
         int x1 = a+b;
         int x2 = b-c;
         int x3 = c*d;
-        int x4 = d/e;
+        int x4 = e/d;
         int x5 = e%a;
 
         System.out.println("a+b: "+x1);
@@ -87,13 +87,14 @@ public class ExercicioOperadoresAritmeticos {
         System.out.println("i * j++ - --k: " +a);
         System.out.println("k: " +k);
         System.out.println("j: " +j); //11
+        System.out.println("a: " + a);
 
         int b = 3;
 
         b -= k *= 3; // b = 3 - k; k = k * 3; b = 3 - 42 -> -39
 
         System.out.println("b: " + b);
-        System.out.println("k: " + k);
+        System.out.println("k: " + k); //42
 
 
 
